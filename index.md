@@ -9,7 +9,7 @@
 
 取而代之的是，当前开发者仍然只能回到使用模块[module](http://www.adequatelygood.com/2010/3/JavaScript-Module-Pattern-In-Depth) or [object literal](http://blog.rebeccamurphey.com/2009/10/15/using-objects-to-organize-your-code)或者对象字面量模式等替代方法上。在这当中，模块脚本在Dom中被一个单一全局对象用命名空间串联起来，但这仍然可能在你的结构中导致命名冲突。在缺少一些人为处理或第三方工具时，这也不是处理依赖管理的干净的方式。
 
-虽然这些问题的原生解决方案将会在ES Harmony中到来，好消息就是编写模块化的JavaScript从来都不是容易的但你可以从今天开始做这件事情。
+模块化的JavaScript一直都是一个不好解决的问题，而这些问题的原生解决方案将会在ES Harmony中得到解决，不过好消息是你今天就已经可以开始编写模块化的JavaScript。
 
 在这篇文章中，我们会观察三种编写模块化JavaScript的格式：**AMD**,**CommonJS**以及下一个JavaScript版本的提案，**Harmony**。
 
